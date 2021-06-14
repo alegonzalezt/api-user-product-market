@@ -3,15 +3,15 @@ https://localhost:4000/api/products    ----> METODO GET
 
 
 LLAMAR PRODUCTO EN ESPECIFICO POR ID:
-https://localhost:4000/api/products/:productid    ----> METODO GET  
+https://localhost:4000/api/products/   ----> METODO GET  
 
 
 CREAR PRODUCTO:
-https://localhost:4000/api/products/:productid    ----> METODO POST
+https://localhost:4000/api/products/   ----> METODO POST
 {
-    "name": "cocacola",
+    "name": "coca",
+    "category": "bebidas",
     "price": "3.000",
-    "category": "bebidas"
     "imgURL": "https://supermercadoahorramas.com.co/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1RZSWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--91a60eaec8eda15703f24849ae194cda801a7909/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9TY21WemFYcGxYM1J2WDJacGRGc0hhUUlnQTJrQ0lBTTZER052Ym5abGNuUkpJZ2hxY0djR09nWkZWRG9LYzJGMlpYSjdDRG9NY1hWaGJHbDBlV2xmT2dwemRISnBjRlE2RDJKaFkydG5jbTkxYm1SYkNHa0IvMmtCLzJrQi93PT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--f9b6205701877dad933126b17f2a1a57fbbba520/7702535021712.jpg?locale=es"
 }
 
